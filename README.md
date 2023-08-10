@@ -29,7 +29,7 @@ Welcome to Harmony TUNES, your go-to platform for immersive and productive backg
 
 ## Getting Started
 
-To access , simply visit the [https://ayoubchaouki19.github.io/harmonytunesdemo/](#) from your computer browser. Unfortunately,  is optimized for computer users only, so we kindly request mobile users to access the platform from a computer.
+To access , simply visit the [https://ayoubchaouki19.github.io/harmonytunesdemo/](#https://ayoubchaouki19.github.io/harmonytunesdemo/) from your computer browser. Unfortunately,  is optimized for computer users only, so we kindly request mobile users to access the platform from a computer.
 
 ## Usage
 
