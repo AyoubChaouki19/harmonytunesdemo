@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="music.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Harmony Tunes</title>
+  </head>
+  <body>
+    <div id="loading-overlay">
+      <div class="loading-spinner"></div>
+   </div>
+    <div class="menu">
+      <div id="playerContainer"style="display:none"></div>
+      <div class="logo">
+        <img src="gamer.png" alt="Website Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><i class="fa-solid fa-house"></i> home</a>
+          </li>
+          <li>
+            <a href="music.html"
+              ><i class="fa-solid fa-headphones"></i> music</a
+            >
+          </li>
+          <li>
+            <a href="https://pomofocus.io/" target="_blank" 
+              ><i class="fa-solid fa-hourglass-half"></i> pomodoro</a
+            >
+          </li>
+          <li>
+            <a href="aboutus.html"
+              ><i class="fa-solid fa-users"></i> about us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="music-displayed-container">
+        <div class="svg-displayed-container" id="mainImage" style="display: none;">
+        </div>
+        <div>
+        <p id="title-music">Feel free to choose from our selection of mesmerizing tunes and immerse yourself in the world of music.</p>
+    <div class="circle" id="playButton" style="display: none;">
+      <span class="circle__btn">
+        <ion-icon class="pause" name="pause"><i class="fa-solid fa-play"></i></ion-icon>
+        <ion-icon class="play" name="play"><i class="fa-solid fa-pause"></i></ion-icon>
+      </span>
+      <span class="circle__back-1"></span>
+      <span class="circle__back-2"></span>
+    </div>
+        </div>
+      </div>
+      <div class="music-container">
+        <h2>Live Music Streams</h2>
+             <div class="live-container">
+              <div class="svg-container" style="background-image: url('ai-generated-7926687_1280.jpg');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'lofi hip hop radio 📚 - beats to relax/study');showLoadingAndHideAfterDelay(1200);changeRadio('jfKfPfyJRdk');">
+    <p class="svg-title">lofi hip hop radio 📚 - beats to relax/study</p>
+        </div>
+        <div class="svg-container" style="background-image: url('ai-generated-8094077_1280.jpg');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'synthwave radio 🌌 - beats to chill/game');showLoadingAndHideAfterDelay(1200);changeRadio('4xDzrJKXOOY');">
+    <p class="svg-title">synthwave radio 🌌 - beats to chill/game</p>
+        </div>
+        <div class="svg-container" style="background-image: url('piano-8171794_1280.jpg');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'calm piano radio🎹peaceful piano music');showLoadingAndHideAfterDelay(1200);changeRadio('tfBVp0Zi2iE');">
+    <p class="svg-title">calm piano radio🎹peaceful piano music</p>
+        </div>
+        <div class="svg-container" style="background-image: url('ai-generated-8093991_1280.jpg');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'Chill Day 🍂 ~ Music to put you in a better mood');showLoadingAndHideAfterDelay(1200);changeRadio('WZgLuaeFZ3s');">
+    <p class="svg-title">Chill Day 🍂 ~ Music to put you in a better mood</p>
+        </div>
+        <div class="svg-container" style="background-image: url('bed.jpg');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'lofi hip hop radio 💤 - beats to sleep/chill');showLoadingAndHideAfterDelay(1200);changeRadio('rUxyKA_-grg');">
+    <p class="svg-title">lofi hip hop radio 💤 - beats to sleep/chill</p>
+        </div>
+        <div class="svg-container" style="background-image: url('coffee.jpg');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'Relaxing Jazz Instrumental Music ☕');showLoadingAndHideAfterDelay(1200);changeRadio('vVbXNORHUTE');">
+    <p class="svg-title">Relaxing Jazz Instrumental Music ☕</p>
+        </div>
+        <div class="svg-container" style="background-image: url('rain.jpg');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'RAINING IN ＴＯＫＹＯ 🌧');showLoadingAndHideAfterDelay(1200);changeRadio('O2Ipw2-uKwc');">
+    <p class="svg-title">RAINING IN ＴＯＫＹＯ 🌧</p>
+        </div>
+        <div class="svg-container" style="background-image:url('shiloh.png');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'shiloh dynasty-lofi hip hop radio');showLoadingAndHideAfterDelay(1200);changeRadio('epaP2LCCuVE');">
+    <p class="svg-title">shiloh dynasty-lofi hip hop radio</p>
+        </div>
+      </div>
+      <h2>Music Selections</h2>
+      <div class="non-live-container">
+                <div class="svg-container" style="background-image:url('tree.png');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'Focus Music for Work and Studying');showLoadingAndHideAfterDelay(1200);changeRadio('_4kHxtiuML0');">
+    <p class="svg-title">Focus Music for Work and Studying</p>
+        </div>
+        <!-- 2 -->
+       <div class="svg-container" style="background-image:url('code.png');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'Code-fi / lofi beats to code/relax');showLoadingAndHideAfterDelay(1200);changeRadio('f02mOEt11OQ');">
+    <p class="svg-title">Code-fi / lofi beats to code/relax</p>
+        </div>
+        <!-- 3 -->
+                <div class="svg-container" style="background-image:url('best.jpg');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'1 A.M Study Session 📚 [lofi hip hop/chill beats]');showLoadingAndHideAfterDelay(1200);changeRadio('lTRiuFIWV54');">
+    <p class="svg-title">1 A.M Study Session 📚 [lofi hip hop/chill beats]</p>
+        </div>
+        <!-- 4 -->
+                <div class="svg-container" style="background-image:url('piano.jpg');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'The Most Beautiful & Relaxing Anime Piano Music');showLoadingAndHideAfterDelay(1200);changeRadio('tvZgpXt-fZw');">
+    <p class="svg-title">The Most Beautiful & Relaxing Anime Piano Music</p>
+        </div>
+        <!-- 5 -->
+                <div class="svg-container" style="background-image:url('cat.jpg');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'寛げる [ J A P A N E S E L O F I F U T U R E B A S S]');showLoadingAndHideAfterDelay(1200);changeRadio('XN41UJ7EZ4E');">
+    <p class="svg-title">寛げる [ J A P A N E S E L O F I F U T U R E B A S S]</p>
+        </div>
+        <!-- 6 -->
+                <div class="svg-container" style="background-image:url('japanesse\'DXKojYz25Gw\'.jpg');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'Romanticizing Studying Playlist');showLoadingAndHideAfterDelay(1200);changeRadio('QLo8n4-a27s');">
+    <p class="svg-title">Romanticizing Studying playlist</p>
+        </div>
+        <!--  -->
+                <div class="svg-container" style="background-image:url('jazz.jpg');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'Swing Beats [Jazz Hop / Lo Fi / Chill Mix]');showLoadingAndHideAfterDelay(1200);changeRadio('uZ6_ISALjcQ');">
+    <p class="svg-title">Swing Beats [Jazz Hop / Lo Fi / Chill Mix]</p>
+        </div>
+        <!--  -->
+                <div class="svg-container" style="background-image:url('korean.png');
+    background-size: cover;
+    background-position: center;" onclick="changeImageAndTitle(this.style.backgroundImage,'Chill Korean Coffee Shop Morning Playlist ♪ For Work/Relaxing/Studying/Chill)');showLoadingAndHideAfterDelay(1200);changeRadio('MFkCwixwpwk');">
+    <p class="svg-title">Chill Korean Coffee Shop Morning Playlist ♪ For Work/Relaxing/Studying/Chill</p>
+        </div>
+        
+      </div>
+      </div>
+           <div class="footer">
+        <div class="logo">
+          <img src="gamer.png" alt="Website Logo" />
+          <p>
+            This website seeks to provide a more effective and fulfilling
+            experience through music, ultimately helping users achieve a more
+            productive daily routine.
+          </p>
+        </div>
+        <div class="footer-aboutus">
+          <h2>Contact Me</h2>
+          <ol>
+            <li><i class="fa-solid fa-envelope"></i> <a href="aboutus.html#contact">Gmail</a></li>
+            <li><i class="fa-brands fa-github"></i> <a href="aboutus.html#contact">GitHub</a></li>
+            <li><i class="fa-brands fa-linkedin"></i> <a href="aboutus.html#contact">LinkedIn</a></li>
+          </ol>
+        </div>
+        <div class="footer-contactme">
+          <h2>About Us</h2>
+          <ol>
+            <li><i class="fa-solid fa-circle-info"></i> <a href="aboutus.html#sources">Sources</a></li>
+            <li><i class="fa-regular fa-circle-question"></i> <a href="aboutus.html#tutorials">Tutorials</a></li>
+            <li><i class="fa-solid fa-pencil"></i> <a href="aboutus.html#purpose">Purpose</a></li>
+          </ol>
+        </div>
+      </div>
+      <footer><span>Copyright © 2023 Harmony Tunes</span></footer>
+      </div>
+    </div>
+  </body>
+  <script src="scriptmusic.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+</html>
