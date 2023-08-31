@@ -57,8 +57,8 @@ We value your feedback! If you have any suggestions, issues, or would like to pr
 
 For any inquiries or questions, you can reach out to us at:
 
-- Email: [your.email@example.com](mailto:ayoubchaouki2004@gmail.com)
-- GitHub: [YourGitHubUsername](https://github.com/AyoubChaouki19)
+- Email: [ayoubchaouki2004@gmail.com](mailto:ayoubchaouki2004@gmail.com)
+- GitHub: [AyoubChaouki19](https://github.com/AyoubChaouki19)
 
 ## License
 
