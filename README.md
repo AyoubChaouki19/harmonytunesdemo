@@ -59,10 +59,3 @@ For any inquiries or questions, you can reach out to us at:
 
 - Email: [ayoubchaouki2004@gmail.com](mailto:ayoubchaouki2004@gmail.com)
 - GitHub: [AyoubChaouki19](https://github.com/AyoubChaouki19)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
