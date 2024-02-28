@@ -44,11 +44,12 @@ To access , simply visit the [https://ayoubchaouki19.github.io/harmonytunesdemo/
 - CSS
 - JavaScript
 - YouTube API
-##Snapshots
+  
+## Snapshots
+
 <img width="1440" alt="Screenshot 2024-02-28 at 20 38 16" src="https://github.com/AyoubChaouki19/harmonytunesdemo/assets/139466303/cea54e19-d785-41aa-9473-5a48f1f6d641">
 <img width="1440" alt="Screenshot 2024-02-28 at 20 38 40" src="https://github.com/AyoubChaouki19/harmonytunesdemo/assets/139466303/ff2d5958-3952-4809-9dc8-fd8a481db6c6">
-## Contributing
-
+## Contributions
 We welcome contributions from the community! If you'd like to contribute to , please [contact us](#contact) with your ideas or suggestions.
 
 ## Feedback
