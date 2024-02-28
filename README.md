@@ -44,6 +44,7 @@ To access , simply visit the [https://ayoubchaouki19.github.io/harmonytunesdemo/
 - CSS
 - JavaScript
 - YouTube API
+##Snapshots
 
 ## Contributing
 
